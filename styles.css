@@ -1,0 +1,74 @@
+body{background-color: black;padding: none;
+margin: none;}
+#heading{
+    color: rgb(216, 231, 216);
+    font-family: 'Headland One', serif;
+    font-size: 30px;
+text-align: center;
+margin: 20px;
+
+}
+
+ img{
+
+border-radius: 10px;
+
+    width: 40vw;
+height: 50vh;
+display: block;
+
+    margin: auto;
+border-style: outset;
+border-color: antiquewhite;
+border-width: 3px;
+}
+@media (max-width:450px) {
+    img{
+
+
+        margin-bottom: 20px;
+            width: 77vw;
+        height: 20vh;}
+
+        
+}
+#text1{margin: 3px;
+    color: rgb(216, 231, 216);
+    font-family: 'Headland One', serif;
+    font-size: 3rem;
+    padding: 1rem;
+text-align: center;
+
+}
+#about p{line-height: 3 rem;
+    color: rgb(216, 231, 216);
+    font-family: 'Headland One', serif;
+    font-size: 1rem;
+padding: 20px;
+#ima{
+width: 200px;
+height: 50px;
+
+}
+}
+@media (min-width:450px) {
+#ima{display: block;margin: auto;text-align: center;}
+
+#ima img{display: inline;margin: 20px;
+ width: 300px;height: 165px;
+    }
+}
+
+footer{border-top: 2px solid wheat;
+}
+footer>div{
+    color: rgb(216, 231, 216);
+    font-family: 'Headland One', serif;
+    font-size: .6rem;
+padding-top: .1rem;
+text-align: center;
+
+}
+
+
+
